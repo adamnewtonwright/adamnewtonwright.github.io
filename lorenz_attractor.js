@@ -18,10 +18,10 @@ function plot_attractor()
 		var n = 100;
 		/* User can change value of constants */
 		var inputs = document.getElementById("frm1");
-		var a = Number(inputs.elements[1].value);
-		var b = Number(inputs.elements[2].value);
-		var c = Number(inputs.elements[3].value);
-		var n = Number(inputs.elements[4].value);
+		var a = parseFloat(inputs.elements[1].value);
+		var b = parseFloat(inputs.elements[2].value);
+		var c = parseFloat(inputs.elements[3].value);
+		var n = parseFloat(inputs.elements[4].value);
 		var text = "";
 		text = a + "<br>" + b + "<br>" + c + "<br>";
 		document.getElementById("demo").innerHTML = text;*/
