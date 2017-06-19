@@ -24,7 +24,7 @@ function plot_attractor()
 		var n = eval(inputs.elements[4].value);
 		var text = "";
 		text = a + "<br>" + b + "<br>" + c + "<br>";
-		//document.getElementById("demo").innerHTML = text;
+		document.getElementById("demo").innerHTML = n;
 		var x = [], y = [], z = [];
 		/* Step size */
 		var dt = 0.015;
