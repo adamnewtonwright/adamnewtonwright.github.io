@@ -1,0 +1,76 @@
+/* Center image */
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:1px;
+  border:1px solid #021a40;
+  background-color:#ff0;
+}
+img {margin :auto;}
+
+/* Center Text*/
+
+/* Add font to text */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+		text-align: center;
+}
+
+p {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+div {
+	text-align:center;
+}
+	
+.lorenz {text-align:center;}
+
+figcaption {
+		margin-left:auto;
+		margin-right:auto;
+		text-align: center;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 16px;
+}
+
+/* Background to the site */
+body {
+    background: url(topography.png) repeat 0 0;
+}
+
+/* Make the navigation bar look better */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
