@@ -1,5 +1,5 @@
 /* Lorenz System */
-
+document.getElementById("mybutton").onClick(push_button);
 function push_button()
 {
 	plot_attractor();
@@ -24,7 +24,7 @@ function plot_attractor()
 		var n = eval(inputs.elements[4].value);
 		var text = "";
 		text = a + "<br>" + b + "<br>" + c + "<br>";
-		/*document.getElementById("demo").innerHTML = text;*/
+		//document.getElementById("demo").innerHTML = text;
 		var x = [], y = [], z = [];
 		/* Step size */
 		var dt = 0.015;
