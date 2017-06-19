@@ -1,5 +1,5 @@
 /* Lorenz System */
-document.getElementById("mybutton").onClick(push_button);
+//document.getElementById("mybutton").onClick(push_button);
 function push_button()
 {
 	plot_attractor();
