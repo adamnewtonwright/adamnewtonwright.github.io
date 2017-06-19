@@ -1,5 +1,4 @@
 /* Lorenz System */
-document.getElementById("mybutton").onClick(push_button);
 
 function push_button()
 {
