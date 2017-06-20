@@ -21,7 +21,7 @@ function plot_attractor()
 		a = eval(inputs.elements[1].value);
 		b = eval(inputs.elements[2].value);
 		c = eval(inputs.elements[3].value);
-		n = eval(inputs.elements[4].value);
+		//n = eval(inputs.elements[4].value);
 		var text = "";
 		text = a + "<br>" + b + "<br>" + c + "<br>";
 		//document.getElementById("demo").innerHTML = n;
