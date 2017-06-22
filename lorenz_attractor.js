@@ -122,10 +122,10 @@ function plot_attractor()
 		var n = 100;
 		/* User can change value of constants */
 		var inputs = document.getElementById("frm1");
-		var a = eval(inputs.elements[1].value);
-		var b = eval(inputs.elements[2].value);
-		var c = eval(inputs.elements[3].value);
-		var n = eval(inputs.elements[4].value);
+		//ar a = eval(inputs.elements[1].value);
+		//ar b = eval(inputs.elements[2].value);
+		//ar c = eval(inputs.elements[3].value);
+		//ar n = eval(inputs.elements[4].value);
 		var text = "";
 		text = a + "<br>" + b + "<br>" + c + "<br>";
 		//document.getElementById("demo").innerHTML = text;
