@@ -6,11 +6,11 @@
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <link rel="shortcut icon" href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwi7tumv-cXUAhVCOT4KHY7CB5IQjRwIBw&url=http%3A%2F%2Fwww.jdsupra.com%2Flegalnews%2Fpi-shaped-professionals-a-model-for-63752%2F&psig=AFQjCNGG-8knzlHqbT1Q5_v2KTk4OCjOpA&ust=1497825614973513">
   <script type="text/javascript" src="https://latex.codecogs.com/latexit.js"></script>
-  <!--<script type="text/x-mathjax-config">>
-MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});-->
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 </script>
-<!--<script type="text/javascript" async
-src="https://example.com/MathJax.js?config=TeX-AMS_CHTML">-->
+<script type="text/javascript" async
+  src="https://example.com/MathJax.js?config=TeX-AMS_CHTML">
 </script>
   <title>Today's Data</title>
   <meta charset="utf-8"/>
@@ -70,14 +70,13 @@ Here is a cool little simulation. Feel free to play around with it (but if you c
   Constant a: <input type="text" name="a" value="10"><br><br>
   Constant b: <input type="text" name="b" value="8/3"><br><br>
   Constant c: <input type="text" name="c" value="28"><br><br>
-  Number of Particles: <input type="text" name="n" value="100"><br><br>
+  Number of Particles: <input type="text" name="c" value="100"><br><br>
   <!-- <input type="submit" value="Submit"> -->
 </form> 
 
 
 <!-- adds button that takes the input and calls Java function -->
 <button onclick="push_button()">Try it</button>
-<!--<button id = "mybutton">Try it</button>-->
 </div>
 <!-- A blank paragraph where the output of the function can be written -->
 <p id="demo"></p>
@@ -96,6 +95,8 @@ Here is a cool little simulation. Feel free to play around with it (but if you c
 <p> Nondeterministic systems, on the other hand, or systems in which we cannot know the outcome before the experiment is performed. You may be less familiar with these kinds of systems, as they are not a part of our everyday life. The classic example is the Stern-Gerlach experiment. Stern and Gerlach sent particles, like little tiny atoms, in between the north and south pole of a magnet; the magnet had an inhomogeneous magnetic field, but let's not dive into that. Anyway, because particles have something called spin, they can interact with the magnetic field and either be deflected upwards or downwards. The thing is, before we send the partile through the magnet, we cannot know if it will be deflected up or down because we cannot know if it has spin up or spin down. Thus, the system is said to be nondeterministic, because we don't know what is going to happen.</p>
 
 <p>This system, the Lorenz system, is special because it is deterministic by nature. There is no part of the equations that say "now flip a coin to decide where to go." However, you'll notice in the photo that these lines will go around these orbits for a while and then jump randomly to the other orbit. We cannot know which orbit the particle will be on! Thus, this deterministic system somehow hides information from us. And now a lot of physicists are studying these sytems to try to squeeze some information from them.</p>
+<p>
+And if the three-dimensional simulation  doesn't make you feel chaotic, I dont know what will. </p>
 <div>
 <button onclick="threedlorenz()">This</button>
 </div>
@@ -103,9 +104,7 @@ Here is a cool little simulation. Feel free to play around with it (but if you c
 <script src="lorenz_attractor.js"></script>
 
 
-<div style="height: 200px;"></div>  
-
-
+<div style="height: 200px;"></div>
 
 </body>
 </html>
