@@ -126,8 +126,8 @@ function plot_attractor()
 		//ar b = eval(inputs.elements[2].value);
 		//ar c = eval(inputs.elements[3].value);
 		//ar n = eval(inputs.elements[4].value);
-		var text = "";
-		text = a + "<br>" + b + "<br>" + c + "<br>";
+//		var text = "";
+//		text = a + "<br>" + b + "<br>" + c + "<br>";
 		//document.getElementById("demo").innerHTML = text;
 		var x = [], y = [], z = [];
 		/* Step size */
