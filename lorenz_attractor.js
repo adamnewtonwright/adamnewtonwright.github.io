@@ -42,7 +42,7 @@ function threedlorenz(){
 				  xaxis: {range: [-50, 50]},
 				  yaxis: {range: [0, 50]},
 				  zaxis: {range: [-50, 50]},
-				  margin: {l:0,r:0,b:0,t:0}
+				  margin: {l:5,r:5,b:0,t:5}
 				};
 
 
@@ -86,7 +86,7 @@ function threedlorenz(){
 				  xaxis: {range: [-50, 50]},
 				  yaxis: {range: [0, 50]},
 				  zaxis: {range: [-50, 50]},
-				  margin: {l:0,r:0,b:0,t:0}
+				  margin: {l:5,r:5,b:0,t:0}
 				  });
 
 				  requestAnimationFrame(update);
