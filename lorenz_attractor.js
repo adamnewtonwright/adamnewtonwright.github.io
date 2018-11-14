@@ -7,7 +7,6 @@ function threedlorenz(){
 				  { return row[key]; });
 			  }
 
-				window.open("https://www.w3schools.com");
 				var a = 10;
 				var b = 8/3;
 				var c = 28;
