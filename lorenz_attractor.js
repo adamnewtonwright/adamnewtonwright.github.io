@@ -1,5 +1,4 @@
 /* Lorenz System */
-window.open("www.facebook.com");
 
 function threedlorenz(){
 		Plotly.d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/3d-scatter.csv', function(err, rows){
@@ -114,6 +113,7 @@ function push_button()
 function plot_attractor()
 {
 	
+		window.open("https://www.w3schools.com");
 		Plotly.purge(graph);
 		/* Pre defined Constants */
 		var a = 10;
