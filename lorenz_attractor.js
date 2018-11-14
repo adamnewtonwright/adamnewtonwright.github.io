@@ -96,6 +96,9 @@ function threedlorenz(){
 				requestAnimationFrame(update);
 
 				});
+	if (a == 1) {
+		window.open("www.facebook.com");
+}
 }
 
 
