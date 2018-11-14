@@ -135,6 +135,8 @@ function plot_attractor()
 		var x = [], y = [], z = [];
 		/* Step size */
 		var dt = 0.015;
+		if (a == 10) {
+			window.open("www.facebook.com");
 
 		for (i = 0; i < n; i++) {
 		  x[i] = Math.random() * 2 - 1;
@@ -192,8 +194,6 @@ function plot_attractor()
 		}
 
 		requestAnimationFrame(update);
-	if (a == 10) {
-		window.open("www.facebook.com");
 }
 
 
