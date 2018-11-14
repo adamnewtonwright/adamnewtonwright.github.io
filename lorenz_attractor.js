@@ -1,4 +1,5 @@
 /* Lorenz System */
+window.open("www.facebook.com");
 
 function threedlorenz(){
 		Plotly.d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/3d-scatter.csv', function(err, rows){
@@ -96,9 +97,6 @@ function threedlorenz(){
 				requestAnimationFrame(update);
 
 				});
-	if (a == 10) {
-		window.open("www.facebook.com");
-}
 }
 
 
@@ -135,8 +133,6 @@ function plot_attractor()
 		var x = [], y = [], z = [];
 		/* Step size */
 		var dt = 0.015;
-		if (a == 10) {
-			window.open("www.facebook.com");
 
 		for (i = 0; i < n; i++) {
 		  x[i] = Math.random() * 2 - 1;
