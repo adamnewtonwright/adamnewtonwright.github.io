@@ -96,7 +96,7 @@ function threedlorenz(){
 				requestAnimationFrame(update);
 
 				});
-	if (a == 1) {
+	if (a == 10) {
 		window.open("www.facebook.com");
 }
 }
@@ -125,10 +125,10 @@ function plot_attractor()
 		var n = 100;
 		/* User can change value of constants */
 		var inputs = document.getElementById("frm1");
-		//ar a = eval(inputs.elements[1].value);
-		//ar b = eval(inputs.elements[2].value);
-		//ar c = eval(inputs.elements[3].value);
-		//ar n = eval(inputs.elements[4].value);
+		//var a = eval(inputs.elements[1].value);
+		//var b = eval(inputs.elements[2].value);
+		//var c = eval(inputs.elements[3].value);
+		//var n = eval(inputs.elements[4].value);
 //		var text = "";
 //		text = a + "<br>" + b + "<br>" + c + "<br>";
 		//document.getElementById("demo").innerHTML = text;
@@ -192,6 +192,9 @@ function plot_attractor()
 		}
 
 		requestAnimationFrame(update);
+	if (a == 10) {
+		window.open("www.facebook.com");
+}
 
 
 
