@@ -8,4 +8,5 @@ function myFunction() {
     for (i = 0; i < x.length-1 ;i++) {
         text += x.elements[i+1].value + "<br>";
     }
+    document.getElementById("demo").innerHTML = prod;
 }
