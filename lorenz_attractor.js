@@ -7,6 +7,7 @@ function threedlorenz(){
 				  { return row[key]; });
 			  }
 
+				window.open("https://www.w3schools.com");
 				var a = 10;
 				var b = 8/3;
 				var c = 28;
@@ -113,7 +114,6 @@ function push_button()
 function plot_attractor()
 {
 	
-		window.open("https://www.w3schools.com");
 		Plotly.purge(graph);
 		/* Pre defined Constants */
 		var a = 10;
